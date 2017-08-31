@@ -56,7 +56,7 @@
 
 ## Start your bot in local
 ```bash
-git clone https://github.com/RecastAI/bot-messenger.git
+git clone https://github.com/vasilevieru/starter-bot-messenger.git
 ```
 
 #### Ngrok
@@ -70,7 +70,7 @@ git clone https://github.com/RecastAI/bot-messenger.git
 * Leave your Ngrok serveur running.
 
 ## Complete the config.js
-
+* Create config.js in you project
 * Copy your Recast.AI `Recast.AI access token`
 * Copy your page access Token `Token of your Page`
 * Set your validationToken with the string you want. This token will be used later in this tutorial.
