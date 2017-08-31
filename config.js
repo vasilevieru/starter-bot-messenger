@@ -7,5 +7,6 @@ config.pageAccessToken = 'EAAHBCTnweosBAONe0lzs7rqc4pMu7b6wQhhjpnzbftBo1FsJXjmJy
 config.validationToken = 'ABCD1234'
 config.recastToken = '3d2e65f662633ce16b2f63a2dfd8512e'
 config.language = 'fr'
+config.port = '5000'
 
 module.exports = config

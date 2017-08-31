@@ -47,33 +47,6 @@ function replyMessage(recipientId, messageText) {
   })
 }
 
-function replyButton(recipientId, option) {
-  const messageData = {
-    recipient: {
-      id: recipientId,
-    },
-    message: {
-      attachment: {
-        type: 'template',
-        payload: {
-          template_type: 'generic',
-          elements: [{
-            title: option.elementsTitle,
-            buttons: [{
-              type: option.buttonType,
-              url: option.buttonUrl,
-              title: option.buttonTitle,
-            }],
-          }],
-        },
-      },
-    },
-  }
-  sendMessage(messageData)
-}
-
-
 module.exports = {
-  replyMessage,
-  replyButton,
+  replyMessage
 }
